@@ -9,7 +9,7 @@ First, Steve wanted to investigate the performance of DQ in 2018. Performance wa
 
 <img width="246" alt="Screen Shot 2022-07-26 at 8 08 40 PM" src="https://user-images.githubusercontent.com/106785377/181145387-7ec55b65-7314-4512-9e56-f0f3d8debfd6.png">
 
-Other stocks were analyzed since Daqo didn’t seem like the best fit for Steve’s parents. The work that was used to create the DQ analysis was repurposed to analyze the other stocks for any year. Formatting was added to create an easier to read output, and a script was added to see how fast VBA could execute the code.
+Other stocks were analyzed since Daqo didn’t seem like the best fit for Steve’s parents. The work that was used to create the DQ analysis was repurposed to analyze the other stocks for any year. Formatting was added to create an easier to read output, and a script was added to see how fast VBA could execute the code. The code was refractored and compared to the original code.
 
 
 
