@@ -11,7 +11,9 @@ First, Steve wanted to investigate the performance of DQ in 2018. Performance wa
 
 Other stocks were analyzed since Daqo didn’t seem like the best fit for Steve’s parents. The work that was used to create the DQ analysis was repurposed to analyze the other stocks for any year. Formatting was added to create an easier to read output, and a script was added to see how fast VBA could execute the code.
 
-## Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
+
+
+## Results
 
 #### 2017 Results
 <img width="225" alt="2017" src="https://user-images.githubusercontent.com/106785377/181146528-f98cf48d-9950-4dfd-920f-aaac6fc06b15.png">
@@ -43,6 +45,25 @@ dataRowStart = 4
 Other colors can be created using [this](https://analysistabs.com/excel-vba/colorindex/) chart.
 
 The total daily volume went up from 2017 to 2018 for some stocks but down for others. Total daily value is not the best way determine stock performance over time.
+
+#### Run time for 2017 - Original script
+<img width="248" alt="Original_Run_Time_2017" src="https://user-images.githubusercontent.com/106785377/181150346-dbbf96c2-1c3d-4d6a-bb41-8c7bbe002879.png">
+
+#### Run time for 2018 - Original script
+<img width="252" alt="Original_Run_Time_2018" src="https://user-images.githubusercontent.com/106785377/181150348-ae4bb7a0-11b9-44d7-b680-002a2f1ae602.png">
+
+#### Run time for 2018 - Refractored script
+<img width="253" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/106785377/181149460-c9ffa17c-150a-4d1b-952c-4cc66890eff1.png">
+
+#### Run time for 2018 - Refractored script
+<img width="250" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/106785377/181149472-325260e1-4ccb-4a56-a9c2-10adc3f82137.png">
+
+The run time for stock data analyzed with the original script was 0.609375 seconds for 2017 and 0.609375 for 2018.
+The run time for stock data analyzed with the refractored script was 0.5859357 seconds for 2017 and 0.59375 for 2018.
+
+This doesn't seem like a huge difference, but this analysis was conducted for only 12 different stocks. For 100 or even 1000 different stocks, this time difference would be noticable.
+
+
 
 ## Summary: In a summary statement, address the following questions.
 
