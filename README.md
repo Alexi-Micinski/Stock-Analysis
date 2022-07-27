@@ -71,7 +71,7 @@ This doesn't seem like a huge difference, but this analysis was conducted for on
 ### What are the advantages or disadvantages of refactoring code?
 Refractoring code is important for reducing run time and compressing Subs. Reducing run time is useful when running larger datasets. Compressing multiple Subs into one concise Sub is useful in getting the desired output without fumbling around with multiple scripts.
 
-Although refracoring code is useful for running larger datasets, a disadvantage could be that it takes time to refine the code and consolidate it into a readable compressed form. 
+Although refractoring code is useful for running larger datasets, a disadvantage could be that it takes time to refine the code and consolidate it into a readable compressed form. 
 
 ### How do these pros and cons apply to refactoring the original VBA script?
 The original script was simpler to create initially. It has multiple Subs, one for calculations, one for formatting, etc. It was easier to plan and parse it out this way. The refractored script was a bit more complicated to keep organized and to understand what was happening at each step in the code, and how each step would affect downstream code. Once the refractored code was complete, it was much simpler to run with just one step rather than multiple. The refractored code also ran a bit faster, which would be useful with more tickers or more stock data.
