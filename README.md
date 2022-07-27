@@ -52,7 +52,7 @@ The total daily volume went up from 2017 to 2018 for some stocks but down for ot
 #### Run time for 2018 - Original script
 <img width="252" alt="Original_Run_Time_2018" src="https://user-images.githubusercontent.com/106785377/181150348-ae4bb7a0-11b9-44d7-b680-002a2f1ae602.png">
 
-#### Run time for 2018 - Refractored script
+#### Run time for 2017 - Refractored script
 <img width="253" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/106785377/181149460-c9ffa17c-150a-4d1b-952c-4cc66890eff1.png">
 
 #### Run time for 2018 - Refractored script
